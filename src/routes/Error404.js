@@ -3,7 +3,7 @@ const Error404 = () => {
   return (
     <div className="error-container">
       <h1 className="font-effect-shadow-multiple error-404">404</h1>
-      <p className="error">Page Not Found</p>
+      <p className="error">Sorry! Page Not Found</p>
     </div>
   );
 };
