@@ -1,4 +1,4 @@
-// import Logo from "../assets/aktechtbg.png";
+import "../assets/workArea.css";
 const MyWork = (props) => {
   return (
     <div className="mywork-card-container">

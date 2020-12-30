@@ -1,5 +1,7 @@
 import profilePic from "../assets/profilePic.jpg";
+import "../assets/bioArea.css";
 import "../assets/animations.css";
+
 const Bio = () => {
   return (
     <div className="bio-area" id="bio-area">

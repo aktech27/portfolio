@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../assets/aktechtbg.png";
+import Logo from "../assets/work1.jpg";
 import Header from "../components/Header";
 import Mybio from "../components/myBio";
 import Footer from "../components/Footer";

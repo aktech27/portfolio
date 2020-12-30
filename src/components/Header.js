@@ -1,5 +1,6 @@
 import Logo from "../assets/aktechtbg.png";
-import "../assets/portfolioPage.css";
+import "../assets/headerArea.css";
+
 const Header = () => {
   return (
     <div className="header-area">
