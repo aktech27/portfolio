@@ -1,0 +1,61 @@
+.mywork-area {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom right, #f5f186, #9dfbc8);
+  overflow: hidden;
+}
+.mywork-card-container {
+  width: 400px;
+  height: 250px;
+}
+.mywork-card {
+  border: 2px solid black;
+  position: absoute;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease-in-out;
+  box-shadow: 0px 4px 8px 0px #666;
+  background-image: linear-gradient(white, white);
+}
+.mywork-card:hover {
+  transform: rotateY(180deg);
+  cursor: pointer;
+}
+.mywork-card-front,
+.mywork-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.mywork-card-front img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  overflow: hidden;
+}
+
+.mywork-card-back {
+  background-color: brown;
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.mywork-card-back p {
+  margin: 4px 10px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva,
+    Verdana, sans-serif;
+  font-size: 20px;
+}
+.mywork-card-back h2 {
+  margin: 8px 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 30px;
+}
